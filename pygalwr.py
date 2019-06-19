@@ -47,8 +47,9 @@ def download_catalogue(save_to=None):
             except:
                 # I know this is a pokemon exception, but I figured it wouldn't hurt in this part
                 # of the code.
-                print('It looks like I could not convert your path to a string.')
-                return "\nPlease check your path and try again"
+                print('It looks like I could not convert your path to a string.'
+                      '\nPlease check your path and try again')
+                return
 
         try:
             cat.to_csv(save_to, index=False)
@@ -58,7 +59,8 @@ def download_catalogue(save_to=None):
                   "traceback) for more information about what went wrong and try again.")
             return
 
-        return "Successfully downloaded the catalogue to "+save_to
+        print("Successfully downloaded the catalogue to "+save_to)
+        return
 
     return cat
 
