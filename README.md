@@ -1,7 +1,7 @@
-pygalwr - module
+Download the Galactic WR star Catalogue with pygalwr
 ---
 
-This contains a quick utility function to download the most up to date version of the Galactic WR
+This module contains a quick utility function to download the most up to date version of the Galactic WR
 Star catalogue as a clean dataframe.
 
 ## Quick Start
