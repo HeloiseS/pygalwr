@@ -20,8 +20,10 @@ Star catalogue as a clean dataframe.
 - Saving the catalogue locally
 
 ```bash
-from pygalwr import download_catalogue as dnld_cat
+>>> from pygalwr import download_catalogue as dnld_cat
 >>> catalogue_df = dnld_cat(save_to='WR_CAT')
+Successfully downloaded the catalogue to WR_CAT
+
 ```
 
 
