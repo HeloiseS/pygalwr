@@ -31,4 +31,6 @@ from pygalwr import download_catalogue as dnld_cat
 
 **Author:** H. F. Stevance - hfstevance@gmail.com
 
-**Dependencies:** Python 3.6, pandas
+**Dependencies:** pandas
+
+**Tested for Python3.6**
