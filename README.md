@@ -4,7 +4,7 @@ pygalwr - module
 This contains a quick utility function to download the most up to date version of the Galactic WR
 Star catalogue as a clean dataframe.
 
-**Quick Start**
+## Quick Start
 
 - Just getting the catalogue as a dataframe
 ```bash
