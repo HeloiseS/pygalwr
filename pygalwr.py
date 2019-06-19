@@ -38,9 +38,9 @@ def download_catalogue(save_to=None):
         cat[column] = cat[column].map(lambda x: x.rstrip('&nbsp'))
 
     if save_to:
-        #TODO: add assertion that the path is sensible, if not, raise a warning and give default
+        # TODO: add assertion that the path is sensible, if not, raise a warning and give default
         # name.
-        cat.to_csv('save_to')
+        cat.to_csv(save_to)
 
     return cat
 
